@@ -26,3 +26,8 @@ CREATE TABLE trans.cnpplant (
  insert into trans.cnpplant ( item_ix, name, dm_mp, c_mp, n_mp, p_mp, rix, bix, stix, fix_s, fix_r, rt_ix, sh_ix, gm_ix, leg_ix, seed_ix, ros_ix, comment ) values (1041, 'green rye', 0.22, 43, 1.39, 0.35, 0.011882, 0.001734, 1, 5.148, 14.652, 3041, 1041, 1041, 0, 24, 4, '???'  );
  insert into trans.cnpplant ( item_ix, name, dm_mp, c_mp, n_mp, p_mp, rix, bix, stix, fix_s, fix_r, rt_ix, sh_ix, gm_ix, leg_ix, seed_ix, ros_ix, comment ) values (1139, 'clovergrass', 0.2, 43, 2.6, 0.35, 0, 0, 0, 18.7125581395349, 39.7641860465116, 3001, 97, 97, 139, 17, 8, '???'  );
 
+INSERT INTO trans.cnpplant (item_ix,"name",name_en,name_de,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES (43,'Ackerbohne','fieldbean','Ackerbohne',0.43 ,0.0,0.0,10.21700,12.4875 ,0.0,4.880 ,0.55 ,0.86 ,0,14,5,222,9,409,'meike');
+
+INSERT INTO trans.cnpplant (item_ix,"name",name_en,name_de,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES (41,'Sojabohne ','Sojabeans' , 'Sojabohne', 0.42,0.15 1.0,0.0,1.327273,0.405,4.4 ,0.57,0.86,236,15,5,222,9,409,'MA Nora Rentschler');
+
+INSERT INTO trans.cnpplant (item_ix,"name",name_en,name_de,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES (40,'Erbse ', 'field pea ', 'Erbse/Leguminose', 42.0,0.150 ,1.176470 ,0.0,1.327273,0.405,4.07 ,0.5,0.86 ,236,15,5,222,9,409,'MA Nora Rentschler');
