@@ -60,6 +60,6 @@ INSERT INTO trans.cnpplant (item_ix,"name",c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_
 
 INSERT INTO trans.cnpplant (item_ix,"name",c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES (40, 'Field Pea ',  42.0,0.150 ,1.176470 ,0.0,1.327273,0.405,4.07 ,0.5,0.86 ,236,15,5,222,9,409,'MA Nora Rentschler');
 
-INSERT INTO public.cnpplant (item_ix,name, ,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES
+INSERT INTO public.cnpplant (item_ix,name, c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES
 	 (52,'Luzerne(mcf)   ', 0.38999998569488525,1.0,0.05488400161266327,0.0,46.511600494384766,0.10976000130176544,3.450000047683716,0.3700000047683716,0.20000000298023224,188,17,8,222,9,9,'meike');
 
