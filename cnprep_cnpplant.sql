@@ -36,3 +36,5 @@ INSERT INTO trans.cnpplant (item_ix,"name",c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_
 INSERT INTO trans.cnpplant (item_ix,name, c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES
 	 (52,'Luzerne(mcf)   ', 0.38999998569488525,1.0,0.05488400161266327,0.0,46.511600494384766,0.10976000130176544,3.450000047683716,0.3700000047683716,0.20000000298023224,188,17,8,222,9,9,'meike');
 
+INSERT INTO trans.cnpplant (item_ix,name,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES
+	 (212,'permGrassland_int        '45.0,1.0,0.0,1.12,314.0,0.0,2.6,0.99,1.0,1010,-99,8,4002,88,64,NULL);

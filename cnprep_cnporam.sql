@@ -43,4 +43,7 @@ insert into trans.cnporam ( item_ix, name, oram, dm, c_dm, cnr, cnr_alt, mor, cp
  insert into trans.cnporam ( item_ix, name, oram, dm, c_dm, cnr, cnr_alt, mor, cpr, pmor, k, eta, ros_ix, comment, pop ) values (2006, 'cattle slurry', true, 0.091, 42.4, 14.4, 14.4, 1.98, 70.6, 0, 0.2445, 0.55403, 7, '???' ,0 );
  insert into trans.cnporam ( item_ix, name, oram, dm, c_dm, cnr, cnr_alt, mor, cpr, pmor, k, eta, ros_ix, comment, pop ) values (2007, 'farmyard manure', true, 0.236, 36.1, 15.3, 15.3, 1.16, 45.1, 0, 0.0951, 0.67062, 3, '???' ,0 );
  insert into trans.cnporam ( item_ix, name, oram, dm, c_dm, cnr, cnr_alt, mor, cpr, pmor, k, eta, ros_ix, comment, pop ) values (19701, 'green matter compost', true, 0.6, 38, 29.7, 29.7, 0, 187, 0, 0.05, 0.25, 1, '???' ,0 );
-
+INSERT INTO trans.cnporam (oram,item_ix,"name",dm,c_dm,cnr,cnr_alt,mor,cpr,k,eta,ros_ix,"comment",pmor,pop) VALUES
+	 (true,64,'grass 1 cut                   ',0.22,41.5,27.5,25.0,0.1,147.0,0.15,0.5,21,NULL,0.0,NULL),
+	 (true,88,'grass cutting                 ',0.22,41.5,25.0,25.0,0.0,108.0,0.15,0.5,21,NULL,0.0,NULL),
+	 (false,4002,'Grass_roots                   ',1.0,1.0,80.0,80.0,0.0,470.0,0.2,0.45,21,NULL,0.0,NULL);
