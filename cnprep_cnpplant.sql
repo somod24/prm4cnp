@@ -38,3 +38,7 @@ INSERT INTO trans.cnpplant (item_ix,name, c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_m
 
 INSERT INTO trans.cnpplant (item_ix,name,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") VALUES
 	 (212,'permGrassland_int        '45.0,1.0,0.0,1.12,314.0,0.0,2.6,0.99,1.0,1010,-99,8,4002,88,64,NULL);
+INSERT INTO trans.cnpplant (item_ix,name,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") 
+VALUES (109,'turnip',51.0,0.0,0.3,0.0,0.0,0.07,0.7,0.17,0.23,0,18,1,1006,1006,1006,'jacobs et al. (Stix?)');
+INSERT INTO trans.cnpplant (item_ix,name,c_mp,stix,rix,fix_s,fix_r,bix,n_mp,p_mp,dm_mp,leg_ix,seed_ix,ros_ix,rt_ix,gm_ix,sh_ix,"comment") 
+VALUES (4,'oat  ',44.0,0.15,1.08,0.0,0.0,0.0132,1.56,0.41,0.86,0,8,4,3001,9,1001,'kolbe ökogeprüft');
